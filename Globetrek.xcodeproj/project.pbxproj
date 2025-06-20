@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		347572EE2D99712B00A7F84E /* Amadeus in Frameworks */ = {isa = PBXBuildFile; productRef = 347572ED2D99712B00A7F84E /* Amadeus */; };
+		49017F302DA3F8C20085FD6C /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 49017F2F2DA3F8C20085FD6C /* OpenAI */; };
+		49017F332DA3F8DD0085FD6C /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 49017F322DA3F8DD0085FD6C /* GoogleGenerativeAI */; };
+		498971DF2D972122003B2740 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 498971DE2D972122003B2740 /* FirebaseAuth */; };
+		498971E12D972122003B2740 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 498971E02D972122003B2740 /* FirebaseAuthCombine-Community */; };
+		498971E32D972122003B2740 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 498971E22D972122003B2740 /* FirebaseCore */; };
+		498971E52D972122003B2740 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 498971E42D972122003B2740 /* FirebaseDatabase */; };
+		498971E72D972122003B2740 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 498971E62D972122003B2740 /* FirebaseFirestore */; };
+		498971E92D972122003B2740 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 498971E82D972122003B2740 /* FirebaseFirestoreCombine-Community */; };
+		498971EB2D972122003B2740 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 498971EA2D972122003B2740 /* FirebaseRemoteConfig */; };
+		498971ED2D972122003B2740 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 498971EC2D972122003B2740 /* FirebaseStorage */; };
+		498971EF2D972122003B2740 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 498971EE2D972122003B2740 /* FirebaseStorageCombine-Community */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFB2AED82D8F337F001E03C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB2AEBF2D8F337A001E03C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB2AEC62D8F337A001E03C4;
+			remoteInfo = Globetrek;
+		};
+		FFB2AEE22D8F337F001E03C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB2AEBF2D8F337A001E03C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB2AEC62D8F337A001E03C4;
+			remoteInfo = Globetrek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFB2AEC72D8F337A001E03C4 /* Globetrek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Globetrek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB2AED72D8F337F001E03C4 /* GlobetrekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobetrekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB2AEE12D8F337F001E03C4 /* GlobetrekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobetrekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		34318E2B2D997A8400339148 /* Exceptions for "Globetrek" folder in "Globetrek" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FFB2AEC62D8F337A001E03C4 /* Globetrek */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FFB2AEC92D8F337A001E03C4 /* Globetrek */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				34318E2B2D997A8400339148 /* Exceptions for "Globetrek" folder in "Globetrek" target */,
+			);
+			path = Globetrek;
+			sourceTree = "<group>";
+		};
+		FFB2AEDA2D8F337F001E03C4 /* GlobetrekTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GlobetrekTests;
+			sourceTree = "<group>";
+		};
+		FFB2AEE42D8F337F001E03C4 /* GlobetrekUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GlobetrekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB2AEC42D8F337A001E03C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498971DF2D972122003B2740 /* FirebaseAuth in Frameworks */,
+				49017F302DA3F8C20085FD6C /* OpenAI in Frameworks */,
+				498971E32D972122003B2740 /* FirebaseCore in Frameworks */,
+				49017F332DA3F8DD0085FD6C /* GoogleGenerativeAI in Frameworks */,
+				498971E52D972122003B2740 /* FirebaseDatabase in Frameworks */,
+				498971EB2D972122003B2740 /* FirebaseRemoteConfig in Frameworks */,
+				498971E92D972122003B2740 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				498971ED2D972122003B2740 /* FirebaseStorage in Frameworks */,
+				498971E72D972122003B2740 /* FirebaseFirestore in Frameworks */,
+				347572EE2D99712B00A7F84E /* Amadeus in Frameworks */,
+				498971EF2D972122003B2740 /* FirebaseStorageCombine-Community in Frameworks */,
+				498971E12D972122003B2740 /* FirebaseAuthCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB2AED42D8F337F001E03C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB2AEDE2D8F337F001E03C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFB2AEBE2D8F337A001E03C4 = {
+			isa = PBXGroup;
+			children = (
+				FFB2AEC92D8F337A001E03C4 /* Globetrek */,
+				FFB2AEDA2D8F337F001E03C4 /* GlobetrekTests */,
+				FFB2AEE42D8F337F001E03C4 /* GlobetrekUITests */,
+				FFB2AEC82D8F337A001E03C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB2AEC82D8F337A001E03C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB2AEC72D8F337A001E03C4 /* Globetrek.app */,
+				FFB2AED72D8F337F001E03C4 /* GlobetrekTests.xctest */,
+				FFB2AEE12D8F337F001E03C4 /* GlobetrekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB2AEC62D8F337A001E03C4 /* Globetrek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB2AEEB2D8F337F001E03C4 /* Build configuration list for PBXNativeTarget "Globetrek" */;
+			buildPhases = (
+				FFB2AEC32D8F337A001E03C4 /* Sources */,
+				FFB2AEC42D8F337A001E03C4 /* Frameworks */,
+				FFB2AEC52D8F337A001E03C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FFB2AEC92D8F337A001E03C4 /* Globetrek */,
+			);
+			name = Globetrek;
+			packageProductDependencies = (
+				498971DE2D972122003B2740 /* FirebaseAuth */,
+				498971E02D972122003B2740 /* FirebaseAuthCombine-Community */,
+				498971E22D972122003B2740 /* FirebaseCore */,
+				498971E42D972122003B2740 /* FirebaseDatabase */,
+				498971E62D972122003B2740 /* FirebaseFirestore */,
+				498971E82D972122003B2740 /* FirebaseFirestoreCombine-Community */,
+				498971EA2D972122003B2740 /* FirebaseRemoteConfig */,
+				498971EC2D972122003B2740 /* FirebaseStorage */,
+				498971EE2D972122003B2740 /* FirebaseStorageCombine-Community */,
+				347572ED2D99712B00A7F84E /* Amadeus */,
+				49017F2F2DA3F8C20085FD6C /* OpenAI */,
+				49017F322DA3F8DD0085FD6C /* GoogleGenerativeAI */,
+			);
+			productName = Globetrek;
+			productReference = FFB2AEC72D8F337A001E03C4 /* Globetrek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFB2AED62D8F337F001E03C4 /* GlobetrekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB2AEEE2D8F337F001E03C4 /* Build configuration list for PBXNativeTarget "GlobetrekTests" */;
+			buildPhases = (
+				FFB2AED32D8F337F001E03C4 /* Sources */,
+				FFB2AED42D8F337F001E03C4 /* Frameworks */,
+				FFB2AED52D8F337F001E03C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB2AED92D8F337F001E03C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FFB2AEDA2D8F337F001E03C4 /* GlobetrekTests */,
+			);
+			name = GlobetrekTests;
+			packageProductDependencies = (
+			);
+			productName = GlobetrekTests;
+			productReference = FFB2AED72D8F337F001E03C4 /* GlobetrekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFB2AEE02D8F337F001E03C4 /* GlobetrekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB2AEF12D8F337F001E03C4 /* Build configuration list for PBXNativeTarget "GlobetrekUITests" */;
+			buildPhases = (
+				FFB2AEDD2D8F337F001E03C4 /* Sources */,
+				FFB2AEDE2D8F337F001E03C4 /* Frameworks */,
+				FFB2AEDF2D8F337F001E03C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB2AEE32D8F337F001E03C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FFB2AEE42D8F337F001E03C4 /* GlobetrekUITests */,
+			);
+			name = GlobetrekUITests;
+			packageProductDependencies = (
+			);
+			productName = GlobetrekUITests;
+			productReference = FFB2AEE12D8F337F001E03C4 /* GlobetrekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB2AEBF2D8F337A001E03C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FFB2AEC62D8F337A001E03C4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FFB2AED62D8F337F001E03C4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FFB2AEC62D8F337A001E03C4;
+					};
+					FFB2AEE02D8F337F001E03C4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FFB2AEC62D8F337A001E03C4;
+					};
+				};
+			};
+			buildConfigurationList = FFB2AEC22D8F337A001E03C4 /* Build configuration list for PBXProject "Globetrek" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFB2AEBE2D8F337A001E03C4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				347572EA2D99689A00A7F84E /* XCRemoteSwiftPackageReference "amadeus-ios" */,
+				49017F2E2DA3F8C20085FD6C /* XCRemoteSwiftPackageReference "OpenAI" */,
+				49017F312DA3F8DD0085FD6C /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FFB2AEC82D8F337A001E03C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB2AEC62D8F337A001E03C4 /* Globetrek */,
+				FFB2AED62D8F337F001E03C4 /* GlobetrekTests */,
+				FFB2AEE02D8F337F001E03C4 /* GlobetrekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB2AEC52D8F337A001E03C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB2AED52D8F337F001E03C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB2AEDF2D8F337F001E03C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB2AEC32D8F337A001E03C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB2AED32D8F337F001E03C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB2AEDD2D8F337F001E03C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFB2AED92D8F337F001E03C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB2AEC62D8F337A001E03C4 /* Globetrek */;
+			targetProxy = FFB2AED82D8F337F001E03C4 /* PBXContainerItemProxy */;
+		};
+		FFB2AEE32D8F337F001E03C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB2AEC62D8F337A001E03C4 /* Globetrek */;
+			targetProxy = FFB2AEE22D8F337F001E03C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFB2AEE92D8F337F001E03C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFB2AEEA2D8F337F001E03C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFB2AEEC2D8F337F001E03C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Globetrek/Preview Content\"";
+				DEVELOPMENT_TEAM = 4P3RF978YZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Globetrek/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Travelapp.Globetrek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFB2AEED2D8F337F001E03C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Globetrek/Preview Content\"";
+				DEVELOPMENT_TEAM = 4P3RF978YZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Globetrek/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Travelapp.Globetrek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFB2AEEF2D8F337F001E03C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Z65P54UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Travelapp.GlobetrekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Globetrek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Globetrek";
+			};
+			name = Debug;
+		};
+		FFB2AEF02D8F337F001E03C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Z65P54UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Travelapp.GlobetrekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Globetrek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Globetrek";
+			};
+			name = Release;
+		};
+		FFB2AEF22D8F337F001E03C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Z65P54UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Travelapp.GlobetrekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Globetrek;
+			};
+			name = Debug;
+		};
+		FFB2AEF32D8F337F001E03C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H3Z65P54UA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Travelapp.GlobetrekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Globetrek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB2AEC22D8F337A001E03C4 /* Build configuration list for PBXProject "Globetrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB2AEE92D8F337F001E03C4 /* Debug */,
+				FFB2AEEA2D8F337F001E03C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB2AEEB2D8F337F001E03C4 /* Build configuration list for PBXNativeTarget "Globetrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB2AEEC2D8F337F001E03C4 /* Debug */,
+				FFB2AEED2D8F337F001E03C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB2AEEE2D8F337F001E03C4 /* Build configuration list for PBXNativeTarget "GlobetrekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB2AEEF2D8F337F001E03C4 /* Debug */,
+				FFB2AEF02D8F337F001E03C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB2AEF12D8F337F001E03C4 /* Build configuration list for PBXNativeTarget "GlobetrekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB2AEF22D8F337F001E03C4 /* Debug */,
+				FFB2AEF32D8F337F001E03C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		347572EA2D99689A00A7F84E /* XCRemoteSwiftPackageReference "amadeus-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amadeus4dev/amadeus-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		49017F2E2DA3F8C20085FD6C /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.9;
+			};
+		};
+		49017F312DA3F8DD0085FD6C /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-gemini/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+		498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		347572ED2D99712B00A7F84E /* Amadeus */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 347572EA2D99689A00A7F84E /* XCRemoteSwiftPackageReference "amadeus-ios" */;
+			productName = Amadeus;
+		};
+		49017F2F2DA3F8C20085FD6C /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49017F2E2DA3F8C20085FD6C /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		49017F322DA3F8DD0085FD6C /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49017F312DA3F8DD0085FD6C /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		498971DE2D972122003B2740 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		498971E02D972122003B2740 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		498971E22D972122003B2740 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		498971E42D972122003B2740 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		498971E62D972122003B2740 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		498971E82D972122003B2740 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		498971EA2D972122003B2740 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		498971EC2D972122003B2740 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		498971EE2D972122003B2740 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 498971DD2D972122003B2740 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FFB2AEBF2D8F337A001E03C4 /* Project object */;
+}
